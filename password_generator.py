@@ -25,7 +25,7 @@ def main():
     parser.add_argument('-u', '--uppercase', action='store_true', help='Include uppercase letters')
     parser.add_argument('-lw', '--lowercase', action='store_true', help='Include lowercase letters')
     parser.add_argument('-d', '--digits',action='store_true', help='Include digits')
-    parser.add_argument('-s', '--special', action='store_true', help="Include special characters')
+    parser.add_argument('-s', '--special', action='store_true', help='Include special characters')
 
     args = parser.parse_args()
 
